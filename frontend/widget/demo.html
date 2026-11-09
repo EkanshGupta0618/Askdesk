@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BrewHaven Coffee Co.</title>
+    <style>
+      body { margin: 0; font-family: Georgia, serif; color: #2b1d14; background: #faf6f1; }
+      header { background: #4b2e1e; color: #fff; padding: 48px 24px; text-align: center; }
+      main { max-width: 720px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
+      button { padding: 8px 14px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>BrewHaven Coffee Co.</h1>
+      <p>Small-batch roasts, delivered fresh.</p>
+    </header>
+    <main>
+      <h2>Our coffee</h2>
+      <p>We roast single-origin beans every Monday and ship within 48 hours. Questions about orders, subscriptions or brewing? Ask our assistant.</p>
+      <button type="button" onclick="window.AskDesk && window.AskDesk.open()">Chat with us</button>
+    </main>
+    <!-- Replace the key with a real tenant API key. Run `npm run build` first. -->
+    <script
+      src="http://127.0.0.1:8000/static/widget/askdesk-widget.js"
+      data-api-key="ak_your_api_key_here"
+      defer
+    ></script>
+  </body>
+</html>

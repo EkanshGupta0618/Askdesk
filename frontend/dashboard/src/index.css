@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-ink: #13262f;     /* sidebar and main text */
+  --color-paper: #f7f8f6;   /* page background */
+  --color-line: #dfe3e1;    /* borders and dividers */
+  --color-muted: #5d6b70;   /* secondary text */
+  --color-signal: #e8a33d;  /* needs attention: unanswered, open */
+  --color-signal-ink: #855610; /* readable amber text on light backgrounds */
+  --color-calm: #2f7d6d;    /* ready, answered, resolved */
+  --color-danger: #b4432f;  /* errors and destructive actions */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

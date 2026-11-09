@@ -1,0 +1,17 @@
+# Python
+myenv/
+__pycache__/
+*.pyc
+
+# Secrets and local data
+.env
+media/
+db.sqlite3
+staticfiles/
+schema.yml
+*.log
+
+# Frontend
+node_modules/
+dist/
+eval/reports/

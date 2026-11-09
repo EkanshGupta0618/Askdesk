@@ -1,0 +1,548 @@
+{
+  "name": "BrewHaven support handbook",
+  "description": "Questions for BrewHaven_Support_Handbook.pdf. must_include is a list of groups: every group needs at least one of its phrases in the answer (case-insensitive).",
+  "cases": [
+    {
+      "id": "a01",
+      "question": "If I order before 2 PM on a working day, when is it dispatched?",
+      "answerable": true,
+      "expected_section": "Orders and Delivery",
+      "must_include": [
+        [
+          "same day",
+          "same-day",
+          "today"
+        ]
+      ]
+    },
+    {
+      "id": "a02",
+      "question": "How long does standard delivery take?",
+      "answerable": true,
+      "expected_section": "Orders and Delivery",
+      "must_include": [
+        [
+          "3 to 5",
+          "3-5",
+          "3–5",
+          "three to five"
+        ]
+      ]
+    },
+    {
+      "id": "a03",
+      "question": "Above what order value is delivery free?",
+      "answerable": true,
+      "expected_section": "Orders and Delivery",
+      "must_include": [
+        [
+          "799"
+        ]
+      ]
+    },
+    {
+      "id": "a04",
+      "question": "What is the delivery fee for a Rs. 500 order?",
+      "answerable": true,
+      "expected_section": "Orders and Delivery",
+      "must_include": [
+        [
+          "79"
+        ]
+      ]
+    },
+    {
+      "id": "a05",
+      "question": "How much does express delivery cost?",
+      "answerable": true,
+      "expected_section": "Orders and Delivery",
+      "must_include": [
+        [
+          "149"
+        ]
+      ]
+    },
+    {
+      "id": "a06",
+      "question": "Which cities get express delivery?",
+      "answerable": true,
+      "expected_section": "Orders and Delivery",
+      "must_include": [
+        [
+          "pune"
+        ],
+        [
+          "mumbai"
+        ],
+        [
+          "bengaluru",
+          "bangalore"
+        ],
+        [
+          "hyderabad"
+        ]
+      ]
+    },
+    {
+      "id": "a07",
+      "question": "Can I cancel my order after it has been dispatched?",
+      "answerable": true,
+      "expected_section": "Orders and Delivery",
+      "must_include": [
+        [
+          "cannot",
+          "can't",
+          "can not",
+          "not be cancelled",
+          "not possible"
+        ]
+      ]
+    },
+    {
+      "id": "a08",
+      "question": "My tracking link hasn't updated for 3 days. What should I do?",
+      "answerable": true,
+      "expected_section": "Orders and Delivery",
+      "must_include": [
+        [
+          "contact",
+          "support"
+        ]
+      ]
+    },
+    {
+      "id": "a09",
+      "question": "Do you accept UPI payments?",
+      "answerable": true,
+      "expected_section": "Payments",
+      "must_include": [
+        [
+          "yes",
+          "we accept"
+        ]
+      ]
+    },
+    {
+      "id": "a10",
+      "question": "Can I pay cash on delivery for a Rs. 4,000 order?",
+      "answerable": true,
+      "expected_section": "Payments",
+      "must_include": [
+        [
+          "3,000",
+          "3000"
+        ]
+      ]
+    },
+    {
+      "id": "a11",
+      "question": "What is the handling fee for cash on delivery?",
+      "answerable": true,
+      "expected_section": "Payments",
+      "must_include": [
+        [
+          "30"
+        ]
+      ]
+    },
+    {
+      "id": "a12",
+      "question": "My payment failed but the money was deducted. When will I get it back?",
+      "answerable": true,
+      "expected_section": "Payments",
+      "must_include": [
+        [
+          "5 to 7",
+          "5-7",
+          "5–7",
+          "five to seven"
+        ]
+      ]
+    },
+    {
+      "id": "a13",
+      "question": "Can I add my GST number to an invoice after it is issued?",
+      "answerable": true,
+      "expected_section": "Payments",
+      "must_include": [
+        [
+          "cannot",
+          "can't",
+          "can not",
+          "not be edited",
+          "at checkout"
+        ]
+      ]
+    },
+    {
+      "id": "a14",
+      "question": "Can I return an opened bag of coffee?",
+      "answerable": true,
+      "expected_section": "Returns and Refunds",
+      "must_include": [
+        [
+          "hygiene"
+        ]
+      ]
+    },
+    {
+      "id": "a15",
+      "question": "How many days do I have to return unopened coffee beans?",
+      "answerable": true,
+      "expected_section": "Returns and Refunds",
+      "must_include": [
+        [
+          "7",
+          "seven"
+        ]
+      ]
+    },
+    {
+      "id": "a16",
+      "question": "I received a damaged product. How soon must I report it?",
+      "answerable": true,
+      "expected_section": "Returns and Refunds",
+      "must_include": [
+        [
+          "48"
+        ]
+      ]
+    },
+    {
+      "id": "a17",
+      "question": "How long does a refund take after you receive my return?",
+      "answerable": true,
+      "expected_section": "Returns and Refunds",
+      "must_include": [
+        [
+          "5 working",
+          "five working"
+        ]
+      ]
+    },
+    {
+      "id": "a18",
+      "question": "How are refunds for cash on delivery orders paid?",
+      "answerable": true,
+      "expected_section": "Returns and Refunds",
+      "must_include": [
+        [
+          "store credit",
+          "bank transfer"
+        ]
+      ]
+    },
+    {
+      "id": "a19",
+      "question": "What warranty do you give on brewing equipment?",
+      "answerable": true,
+      "expected_section": "Returns and Refunds",
+      "must_include": [
+        [
+          "1 year",
+          "one year",
+          "1-year",
+          "one-year",
+          "12 months"
+        ]
+      ]
+    },
+    {
+      "id": "a20",
+      "question": "How many BrewPoints do I earn for every Rs. 10 I spend?",
+      "answerable": true,
+      "expected_section": "BrewPoints Loyalty Program",
+      "must_include": [
+        [
+          "1 brewpoint",
+          "one brewpoint",
+          "1 point",
+          "one point"
+        ]
+      ]
+    },
+    {
+      "id": "a21",
+      "question": "How many BrewPoints do I need for Rs. 50 off?",
+      "answerable": true,
+      "expected_section": "BrewPoints Loyalty Program",
+      "must_include": [
+        [
+          "100"
+        ]
+      ]
+    },
+    {
+      "id": "a22",
+      "question": "When do BrewPoints expire?",
+      "answerable": true,
+      "expected_section": "BrewPoints Loyalty Program",
+      "must_include": [
+        [
+          "12 months",
+          "twelve months",
+          "1 year",
+          "one year"
+        ]
+      ]
+    },
+    {
+      "id": "a23",
+      "question": "How do I become a Gold member?",
+      "answerable": true,
+      "expected_section": "BrewPoints Loyalty Program",
+      "must_include": [
+        [
+          "2,000",
+          "2000"
+        ]
+      ]
+    },
+    {
+      "id": "a24",
+      "question": "How often can a subscription deliver coffee?",
+      "answerable": true,
+      "expected_section": "Coffee Subscriptions",
+      "must_include": [
+        [
+          "2 weeks",
+          "two weeks"
+        ],
+        [
+          "4 weeks",
+          "four weeks"
+        ]
+      ]
+    },
+    {
+      "id": "a25",
+      "question": "What discount do subscribers get?",
+      "answerable": true,
+      "expected_section": "Coffee Subscriptions",
+      "must_include": [
+        [
+          "15"
+        ]
+      ]
+    },
+    {
+      "id": "a26",
+      "question": "For how long can I pause my subscription?",
+      "answerable": true,
+      "expected_section": "Coffee Subscriptions",
+      "must_include": [
+        [
+          "3 months",
+          "three months"
+        ]
+      ]
+    },
+    {
+      "id": "a27",
+      "question": "Is there a fee to cancel my subscription?",
+      "answerable": true,
+      "expected_section": "Coffee Subscriptions",
+      "must_include": [
+        [
+          "no cancellation fee",
+          "no fee",
+          "there is no",
+          "free of charge",
+          "isn't any",
+          "is not any"
+        ]
+      ]
+    },
+    {
+      "id": "a28",
+      "question": "What are your cafe opening hours?",
+      "answerable": true,
+      "expected_section": "Cafe Services",
+      "must_include": [
+        [
+          "8:00",
+          "8 am",
+          "8am",
+          "8 a.m"
+        ],
+        [
+          "10:00",
+          "10 pm",
+          "10pm",
+          "10 p.m"
+        ]
+      ]
+    },
+    {
+      "id": "a29",
+      "question": "Can I bring my dog to the cafe?",
+      "answerable": true,
+      "expected_section": "Cafe Services",
+      "must_include": [
+        [
+          "outdoor"
+        ]
+      ]
+    },
+    {
+      "id": "a30",
+      "question": "Do I get a discount for bringing my own cup?",
+      "answerable": true,
+      "expected_section": "Cafe Services",
+      "must_include": [
+        [
+          "20"
+        ]
+      ]
+    },
+    {
+      "id": "a31",
+      "question": "How many people do I need to reserve a table?",
+      "answerable": true,
+      "expected_section": "Cafe Services",
+      "must_include": [
+        [
+          "6",
+          "six"
+        ]
+      ]
+    },
+    {
+      "id": "a32",
+      "question": "What plant-based milks do you offer?",
+      "answerable": true,
+      "expected_section": "Allergens and Dietary Information",
+      "must_include": [
+        [
+          "oat"
+        ],
+        [
+          "almond"
+        ],
+        [
+          "soy"
+        ]
+      ]
+    },
+    {
+      "id": "a33",
+      "question": "Are your products completely nut-free?",
+      "answerable": true,
+      "expected_section": "Allergens and Dietary Information",
+      "must_include": [
+        [
+          "cannot guarantee",
+          "can't guarantee",
+          "not guarantee",
+          "tree nuts"
+        ]
+      ]
+    },
+    {
+      "id": "a34",
+      "question": "What are your customer support hours?",
+      "answerable": true,
+      "expected_section": "Contacting Support",
+      "must_include": [
+        [
+          "9:00 am",
+          "9 am",
+          "9am",
+          "9 a.m"
+        ],
+        [
+          "9:00 pm",
+          "9 pm",
+          "9pm",
+          "9 p.m"
+        ]
+      ]
+    },
+    {
+      "id": "a35",
+      "question": "How quickly do you reply to support emails?",
+      "answerable": true,
+      "expected_section": "Contacting Support",
+      "must_include": [
+        [
+          "24"
+        ]
+      ]
+    },
+    {
+      "id": "a36",
+      "question": "Where do you source your coffee beans?",
+      "answerable": true,
+      "expected_section": "BrewHaven Coffee Co. Customer Support Handbook",
+      "must_include": [
+        [
+          "chikmagalur"
+        ],
+        [
+          "coorg"
+        ]
+      ]
+    },
+    {
+      "id": "a37",
+      "question": "How many cafes does BrewHaven have?",
+      "answerable": true,
+      "expected_section": "BrewHaven Coffee Co. Customer Support Handbook",
+      "must_include": [
+        [
+          "24"
+        ]
+      ]
+    },
+    {
+      "id": "u01",
+      "question": "What's the price of a cappuccino?",
+      "answerable": false
+    },
+    {
+      "id": "u02",
+      "question": "Do you offer franchise opportunities?",
+      "answerable": false
+    },
+    {
+      "id": "u03",
+      "question": "Who is the CEO of BrewHaven?",
+      "answerable": false
+    },
+    {
+      "id": "u04",
+      "question": "Are you hiring baristas right now?",
+      "answerable": false
+    },
+    {
+      "id": "u05",
+      "question": "Do you do catering for weddings?",
+      "answerable": false
+    },
+    {
+      "id": "u06",
+      "question": "How much caffeine is in your espresso?",
+      "answerable": false
+    },
+    {
+      "id": "u07",
+      "question": "Do you ship internationally?",
+      "answerable": false
+    },
+    {
+      "id": "u08",
+      "question": "What was BrewHaven's revenue last year?",
+      "answerable": false
+    },
+    {
+      "id": "u09",
+      "question": "Do you offer student discounts?",
+      "answerable": false
+    },
+    {
+      "id": "u10",
+      "question": "Who is your head roaster?",
+      "answerable": false
+    }
+  ]
+}
